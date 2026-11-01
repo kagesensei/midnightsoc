@@ -2,7 +2,7 @@
 
 A complete frontend-only investigation game set at Northbridge Research. Five alerts, one connected intrusion, and a six-hour midnight shift. All identities, addresses, domains, and evidence are fictional.
 
-Play at **https://kagesensei.github.io/midnightsoc/** once the GitHub Pages workflow completes. Pushes to `main` run tests, build the game, and deploy `dist` using GitHub Actions. The Vite base path is configured for this repository’s Pages URL.
+Play at **https://kagesensei.github.io/midnightsoc/** once the GitHub Pages workflow completes. Pushes to `main` run tests, build the game, and deploy `dist` using GitHub Actions. The Vite base path is configured for this repositoryâ€™s Pages URL.
 
 ## Run locally
 
@@ -21,7 +21,7 @@ The field guide opens on the first visit. Use quick queries to load filters, the
 
 Response actions show costs and service effects before confirmation. Events during an action happen before it takes effect. Every alert must be marked explained benign or confirmed incident to end early; otherwise the shift ends at 06:00. The debrief explains the scenario and evaluates decisions, evidence, containment, data loss, and business disruption. There is no single-mistake failure.
 
-Progress, notes, and evidence save to this browser’s localStorage after changes. Restart clears that save after confirmation. A browser with blocked storage can still play, but must keep its tab open. No backend, credentials, AI service, or runtime API is used.
+Progress, notes, and evidence save to this browserâ€™s localStorage after changes. Restart clears that save after confirmation. A browser with blocked storage can still play, but must keep its tab open. No backend, credentials, AI service, or runtime API is used.
 
 ## Structure
 
@@ -32,3 +32,9 @@ Progress, notes, and evidence save to this browser’s localStorage after change
 - `tests/engine.test.mjs`: chronological progression, evidence visibility, containment boundaries, caches, and scoring.
 
 To extend the game, add content to the scenario module and explicitly define its scheduled events and response conditions in the engine. Historical records remain visible after containment. Scenario conclusions are revealed in the final debrief, not inferred automatically from the severity labels.
+
+## License and commercial plans
+
+The current project terms reserve rights while permitting personal, non-commercial play of the official hosted game. Redistribution and commercial reuse require permission, subject to existing third-party licenses, statutory rights, GitHub terms, and any earlier grants. See [LICENSE](LICENSE), [license review](LICENSE_REVIEW.md), and [third-party notices](public/THIRD_PARTY_NOTICES.txt).
+
+Earlier revisions contained the Unlicense. The current terms do not revoke earlier permissions and do not establish exclusivity over already released material. Obtain legal review before relying on commercial exclusivity or finalizing paid distribution terms.

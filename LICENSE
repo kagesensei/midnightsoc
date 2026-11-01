@@ -1,24 +1,35 @@
-This is free and unencumbered software released into the public domain.
+Midnight SOC ? Reserved Rights
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Copyright (c) 2026 kagesensei and applicable contributors.
+All rights reserved to the extent protected by applicable law.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+Permission is granted to access and play the officially hosted Midnight SOC
+game for personal, non-commercial use, including the browser copies necessary
+to play it. No fee is currently charged for that access.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+Except for that permission, rights granted under separate agreements, rights
+required by applicable law, and permissions under the third-party licenses
+identified below, no license is granted to copy, modify, redistribute,
+sublicense, sell, or commercially exploit the game's source code, content,
+branding, or other protected original material. Contact the repository owner
+at https://github.com/kagesensei for additional permissions.
 
-For more information, please refer to <https://unlicense.org>
+Public hosting on GitHub remains subject to GitHub's Terms of Service,
+including applicable rights to view and fork public repositories on GitHub.
+This notice does not override those terms or statutory rights.
+
+Third-party components retain their respective licenses. See
+public/THIRD_PARTY_NOTICES.txt, distributed with the hosted game as
+THIRD_PARTY_NOTICES.txt. This notice does not restrict rights granted by
+those licenses.
+
+Earlier revisions of this repository contained the Unlicense. These terms
+apply prospectively to material for which the rights holder can grant them;
+they do not revoke or narrow permissions already granted for earlier
+material. Refer to the Git history for the terms accompanying older versions.
+
+THE GAME IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE EXTENT PERMITTED
+BY LAW, THE RIGHTS HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM THE GAME OR ITS USE.
