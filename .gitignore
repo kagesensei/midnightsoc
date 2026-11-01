@@ -3,6 +3,7 @@ dist/
 *.local
 *.tsbuildinfo
 .idea/
+public/PLAYER_GUIDE.md
 
 # Existing repository exclusions
 bin-debug/

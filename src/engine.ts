@@ -1,7 +1,7 @@
 import {records, verification, triage} from './scenario.ts';
 import type {RecordItem} from './scenario.ts';
 export type Disposition='Uninvestigated'|'Investigating'|'Explained benign'|'Confirmed incident';
-export type State={minute:number;statuses:Disposition[];bookmarks:string[];notes:string;links:string[];actions:string[];history:{minute:number;text:string}[];occurred:string[];extras:RecordItem[];cache:Record<string,string[]>;results:string[];ended:boolean;tutorial:boolean};
+export type State={minute:number;statuses:Disposition[];bookmarks:string[];notes:string;links:string[];actions:string[];history:{minute:number;text:string}[];occurred:string[];extras:RecordItem[];cache:Record<string,string[]>;results:string[];ended:boolean;tutorial:boolean;readRecords?:string[];hintsHidden?:boolean};
 export const initial=():State=>({minute:0,statuses:Array(5).fill('Uninvestigated'),bookmarks:[],notes:'',links:[],actions:[],history:[],occurred:[],extras:[],cache:{},results:[],ended:false,tutorial:true});
 export const clock=(m:number)=>m<0?`23:${String(60+m).padStart(2,'0')}`:`${String(Math.floor(m/60)).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
 export const eventTime=(m:number)=>m< -60?'Previous day':clock(m);
